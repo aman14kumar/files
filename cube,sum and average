@@ -1,0 +1,43 @@
+#include <stdio.h>
+int main( )
+{
+    int i;
+    for(i=122; i>=97; i--)
+    printf("%c ",i);
+}
+*********************************
+print the cube of an individual number
+*#include<stdio.h>
+int main()
+
+{
+int i,c;
+
+ printf("number-%d :\n",i);
+
+ scanf("%d", &i);
+ c = i*i*i ;
+
+ 
+printf("the cube is : %d\n ", c);
+}
+***************************************
+To accept nos from keyboard and find the sum and average
+
+*#include<stdio.h>
+int main()
+
+{
+int i,n,sum=0;
+float avg;
+for(i=1;i<=10;i++)
+{
+ 
+ printf("number-%d :\n",i);
+
+ scanf("%d", &i);
+ sum=sum+i;
+}
+avg=sum/10.0;
+printf("the sum is : %d\n the avg is : %f ", sum,avg);
+}
